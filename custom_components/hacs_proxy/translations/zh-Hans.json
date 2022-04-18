@@ -1,0 +1,34 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "只能配置一个实例"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "enable": "启用代理",
+                    "proxy": "代理地址"
+                },
+                "description": "为HACS设置代理",
+                "title": "HACS代理"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "data": {
+                    "enable": "启用代理",
+                    "proxy": "代理地址"
+                },
+                "description": "为HACS设置代理",
+                "title": "HACS代理"
+            }
+        }
+    },
+    "system_health": {
+        "info": {
+            "proxied": "已开启代理"
+        }
+    }
+}

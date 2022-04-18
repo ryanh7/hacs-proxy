@@ -1,0 +1,38 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Only a single configuration is allowed."
+        },
+        "error": {
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "enable": "Enable",
+                    "proxy": "Proxy Url"
+                },
+                "description": "Set up proxy for HACS",
+                "title": "HACS Proxy"
+            }
+        }
+    },
+    "options": {
+        "abort": {
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "enable": "Enable",
+                    "proxy": "Proxy Url"
+                },
+                "description": "Set up proxy for HACS",
+                "title": "HACS Proxy"
+            }
+        }
+    },
+    "system_health": {
+        "info": {
+            "proxied": "Proxied"
+        }
+    }
+}

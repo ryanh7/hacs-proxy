@@ -1,0 +1,18 @@
+{
+    "codeowners": [
+        "@ryanh7"
+    ],
+    "config_flow": true,
+    "dependencies": [
+        "hacs"
+    ],
+    "documentation": "https://github.com/ryanh7/hacs-proxy",
+    "domain": "hacs_proxy",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/ryanh7/hacs-proxy/issues",
+    "name": "HACS Proxy",
+    "requirements": [
+        
+    ],
+    "version": "1.0.0"
+}

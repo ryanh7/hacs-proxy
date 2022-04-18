@@ -1,0 +1,6 @@
+{
+  "name": "HACS Proxy",
+  "homeassistant": "0.115.0",
+  "country": "CN",
+  "render_readme": true
+}
