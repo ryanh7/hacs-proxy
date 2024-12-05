@@ -5,6 +5,7 @@ from typing import Any
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 
+import asyncio
 from aiohttp.client import ClientSession
 from aiohttp.typedefs import StrOrURL
 
@@ -73,4 +74,5 @@ async def async_unload_entry(hass: HomeAssistant, config_entry: ConfigEntry) -> 
 async def async_reload_entry(hass: HomeAssistant, config_entry: ConfigEntry) -> None:
     """Reload the HACS config entry."""
     await async_unload_entry(hass, config_entry)
+    await asyncio.sleep(1)
     await async_setup_entry(hass, config_entry)
